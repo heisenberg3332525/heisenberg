@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-PORT="${PORT:-8080}"
+PORT="${PORT:-3000}"
 : "${UUID:?UUID environment variable is required}"
 WS_PATH="${WS_PATH:-/ws}"
 mkdir -p /etc/xray /etc/caddy
